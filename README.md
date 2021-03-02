@@ -24,4 +24,12 @@ Explanation: An optimal solution is as follows:<br />
 - Choose from the start, [-3,-2,7,1], adding -3 * 3 = -9 to the score.<br />
 - Choose from the end, [-2,7,1], adding 1 * 4 = 4 to the score.<br />
 - Choose from the end, [-2,7], adding 7 * 6 = 42 to the score. <br />
-The total score is 50 + 15 - 9 + 4 + 42 = 102.<br />
+The total score is 50 + 15 - 9 + 4 + 42 = 102.<br /><br/>
+Q4. You are given two strings, word1 and word2. You want to construct a string in the following manner:<br/>
+    1) Choose some non-empty subsequence subsequence1 from word1.<br/>
+    2) Choose some non-empty subsequence subsequence2 from word2.<br />
+    3) Concatenate the subsequences: subsequence1 + subsequence2, to make the string. <br/>
+Return the length of the longest palindrome that can be constructed in the described manner. If no palindromes can be constructed, return 0.<br/>
+A subsequence of a string s is a string that can be made by deleting some (possibly none) characters from s without changing the order of the remaining characters.
+
+A palindrome is a string that reads the same forward as well as backward.
