@@ -25,6 +25,7 @@ Explanation: An optimal solution is as follows:<br />
 - Choose from the end, [-2,7,1], adding 1 * 4 = 4 to the score.<br />
 - Choose from the end, [-2,7], adding 7 * 6 = 42 to the score. <br />
 The total score is 50 + 15 - 9 + 4 + 42 = 102.<br /><br/>
+
 Q4. You are given two strings, word1 and word2. You want to construct a string in the following manner:<br/>
     1) Choose some non-empty subsequence subsequence1 from word1.<br/>
     2) Choose some non-empty subsequence subsequence2 from word2.<br />
