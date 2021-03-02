@@ -1,7 +1,9 @@
 # LeetCode_Contest229
 A coding contest on online coding platform<br/><br/>
 
+Q1. You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.<br/>
 
+Return the merged string.<br/><br/>
 Q2. You have n boxes. You are given a binary string boxes of length n, where boxes[i] is '0' if the ith box is empty, and '1' if it contains one ball.<br/>
 In one operation, you can move one ball from a box to an adjacent box. Box i is adjacent to box j if abs(i - j) == 1. Note that after doing so, there may be more than one ball in some boxes.<br/>
 Return an array answer of size n, where answer[i] is the minimum number of operations needed to move all the balls to the ith box.<br />
